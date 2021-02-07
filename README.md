@@ -1,4 +1,4 @@
-# stockpriceapp
+# Stock Price Prediction App
 
 # Demo
 
