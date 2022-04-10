@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from keras.models import Sequential                   # Sequential model
-from keras.layers import Dense                        # For fully connected layers
-from keras.layers import LSTM                         # For LSTM layers
+from tensorflow.keras.layers import Dense             # For fully connected layers
+from tensorflow.keras.layers import LSTM              # For LSTM layers
 from sklearn.preprocessing import MinMaxScaler        # Scaling the data
 from keras.models import load_model
 min_max_scaler = MinMaxScaler()
